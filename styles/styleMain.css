@@ -89,7 +89,7 @@ a {
   font-weight: 700;
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 25px;
   width: 100%;
   transition: all 0.3s ease;
   align-items: center;
@@ -102,6 +102,8 @@ a {
   font-size: 20px;
   position: relative;
   transition: color 0.3s;
+
+  white-space: nowrap;
 }
 
 .tab-bar a::after {
@@ -218,6 +220,7 @@ a {
   background-clip: text;
   padding: 0px 25px;
   align-self: center;
+  margin-bottom:15px;
 }
 
 h2,
@@ -340,8 +343,7 @@ li {
   .header3 {
     flex-direction: column;
     align-items: center;
-    padding-bottom: 24px;
-    gap: 24px;
+    gap: 25px;
   }
 }
 
@@ -376,6 +378,11 @@ li {
 @media screen and (max-width: 900px) {
   .tab-bar a {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .tab-bar {
+    gap: 5px;
   }
 }
 
