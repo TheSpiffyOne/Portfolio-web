@@ -21,6 +21,7 @@
 .nav1 {
   display: flex;
   justify-content: center;
+  padding-bottom: 25px;
 }
 
 nav {
@@ -65,18 +66,7 @@ a {
   margin: 0px auto;
   max-height: 100%;
 }
-.talent {
-  color: #121723;
-  font-family: "Young", sans-serif;
-  font-size: 40px;
-  font-weight: 1000;
-    background-image: linear-gradient(rgb(233,2,62), rgb(175, 1, 97));
-    color: transparent;
-    background-clip: text;
-  line-height: 100%;
-  margin-bottom: 24px;
-  text-align: center;
-}
+
 .header {
   background-color: #121723;
   width: auto;
@@ -87,7 +77,7 @@ a {
 .header3 {
   justify-content: space-between;
   display: flex;
-  padding: 24px 50px;
+  padding: 25px 50px;
 }
 
 .logo_header {
@@ -98,33 +88,37 @@ a {
 .subtitle {
   color: #121723;
   font-family: "Young", sans-serif;
-  font-size: 40px;
   font-weight: 700;
   line-height: 100%;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
   text-align: center;
   background-color: #e7e7e7;
   border-radius: 100%;
 }
-
 .catalog {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 25px;
   flex-wrap: wrap;
   flex-direction: column;
 }
-
 .catalog2 {
   display: flex;
   justify-content: center;
   align-items: start;
-  gap: 24px;
+  gap: 25px;
   flex-wrap: wrap;
 }
-.nav1 {
-  justify-content: center;
-  padding-bottom: 20px;
+.talent {
+  font-family: "Young", sans-serif;
+  font-size: 40px;
+  font-weight: 1000;
+    background-image: linear-gradient(rgb(233,2,62), rgb(175, 1, 97));
+    color: transparent;
+    background-clip: text;
+  line-height: 100%;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 .container {
@@ -147,7 +141,7 @@ a {
   background-image: linear-gradient(rgb(233,2,62), rgb(175, 1, 97));
     color: transparent;
     background-clip: text;
-  padding: 0px 24px;
+  padding: 0px 25px;
   align-self: center;
 }
 
@@ -169,14 +163,16 @@ p {
   font-family: "Anonymous Pro", sans-serif;
   font-size: 20px;
   font-weight: 440;
-  padding: 0px 24px;
+  padding: 0px 25px;
   padding-bottom: 32px;
 }
 
 p1 {
   font-family: "Anonymous Pro", sans-serif;
-  font-size: 20px;
   font-weight: 440;
+  padding: 0px 25px;
+  display: flex;
+  font-size: 20px;
 }
 
 .footer {
@@ -189,16 +185,16 @@ p1 {
 .footer1 {
   justify-content: center;
   display: flex;
-  padding: 32px 0px;
+  padding: 25px 0px;
 }
 
-.logo_footer {
+/* .logo_footer {
   width: 200.34px;
   height: 80.24px;
   align-self: center;
   display: flex;
   justify-content: center;
-}
+} */
 
 h4 {
   font-family: "Anonymous Pro", sans-serif;
@@ -206,7 +202,7 @@ h4 {
   justify-content: center;
   font-weight: 700;
   display: flex;
-  padding: 24px 0px;
+  padding: 25px;
   text-align: center;
 }
 
