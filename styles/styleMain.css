@@ -18,6 +18,35 @@
   margin: 0;
 }
 
+html, body { overflow-x: hidden; }
+
+body { position: relative }
+
+.made-using-box {
+  display: flex;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-made {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}
+
+.made-using-box:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.made-using {
+  display: flex;
+  gap: 15px;
+}
+
 /* GLOBAL */
 
 .wrapper {
@@ -134,11 +163,11 @@ li {
 }
 .updtx_container_UI {
   font-family: "Bahnschrift Light", sans-serif;
-  color: #000000;
+  color: #686868;
   font-size: 15px;
   display: flex;
   justify-content: left;
-  padding-top: 15px;
+  padding: 15px 0px;
   align-self: first baseline;
 }
 
@@ -236,7 +265,7 @@ a {
   position: fixed;
   padding: 10px;
   top: 0;
-  left: 0;
+    right: 0;
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
@@ -314,6 +343,7 @@ a {
   line-height: 100%;
   margin-bottom: 25px;
   text-align: center;
+  padding: 0px 15px;
 }
 
 .catalog-logo {
@@ -574,7 +604,6 @@ html {
 
 /* shor more */
 #content {
-  width: 95%;
 	padding: 20px;
 	font-family: Sans-Serif;
 	font-size: 18px;
