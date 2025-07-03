@@ -14,6 +14,11 @@
   src: url(../fonts/Young.ttf);
 }
 
+@font-face {
+  font-family: "Bahnschrift Light";
+  src: url(../fonts/Bahnschrift.ttf);
+}
+
 * {
   margin: 0;
 }
@@ -152,12 +157,13 @@ li {
 }
 .subtext_container_UI{
   font-family: "Bahnschrift Light", sans-serif;
+  font-weight: 400;
   color: #000000;
 }
 .description_container_UI{
   font-family: "Bahnschrift Light", sans-serif;
   font-size: 20px;
-  font-weight: 440;
+  font-weight: 300;
   align-self: center;
     padding-bottom: 15px;
 }
@@ -165,6 +171,7 @@ li {
   font-family: "Bahnschrift Light", sans-serif;
   color: #686868;
   font-size: 15px;
+  font-weight: 300;
   display: flex;
   justify-content: left;
   padding: 15px 0px;
@@ -187,12 +194,13 @@ li {
 .description_container_UI_alt {
   font-family: "Bahnschrift Light", sans-serif;
   font-size: 20px;
-  font-weight: 440;
+  font-weight: 300;
   align-self: center;
   padding-bottom: 15px;
 }
 .subtext_container_UI_alt {
   font-family: "Bahnschrift Light", sans-serif;
+    font-weight: 400;
   color: #000000;
 }
 
@@ -395,7 +403,7 @@ a {
 
 p1 {
   font-family: "Bahnschrift Light", sans-serif;
-  font-weight: 440;
+  font-weight: 300;
   padding: 0px 25px 25px;
   display: flex;
   font-size: 20px;
@@ -403,7 +411,7 @@ p1 {
 
 p2 {
   font-family: "Bahnschrift Light", sans-serif;
-  font-weight: 440;
+  font-weight: 300;
   padding: 0px 25px 0px;
   display: flex;
   font-size: 20px;
