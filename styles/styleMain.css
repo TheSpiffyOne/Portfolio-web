@@ -165,7 +165,7 @@ li {
   font-size: 20px;
   font-weight: 300;
   align-self: center;
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 .updtx_container_UI {
   font-family: "Bahnschrift Light", sans-serif;
@@ -188,7 +188,7 @@ li {
 .text_container_UI_alt {
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  padding: 25px;
   text-wrap: wrap;
 }
 .description_container_UI_alt {
@@ -200,7 +200,7 @@ li {
 }
 .subtext_container_UI_alt {
   font-family: "Bahnschrift Light", sans-serif;
-    font-weight: 400;
+  font-weight: 400;
   color: #000000;
 }
 
@@ -347,7 +347,6 @@ a {
 .main-subtitle {
   color: #121723;
   font-family: "Young", sans-serif;
-  font-weight: 700;
   line-height: 100%;
   margin-bottom: 25px;
   text-align: center;
@@ -381,7 +380,8 @@ a {
   overflow: hidden;
 }
 .subtext_container_logo {
-  font-family: "Anonymous Pro", sans-serif;
+  font-family: "Bahnschrift Light", sans-serif;
+  font-weight: 400;
   color: #000000;
   padding-top: 10px;
   padding-left: 10px;
@@ -394,11 +394,11 @@ a {
 } */
 
 .description_container_logo {
-  font-family: "Anonymous Pro", sans-serif;
+  font-family: "Bahnschrift Light", sans-serif;
+  font-weight: 300;
   font-size: 20px;
-  font-weight: 440;
   align-self: center;
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 p1 {
@@ -474,23 +474,13 @@ h4 {
 
 /* LOGOS */
 
-.X_logo {
-  width: 28px;
-  height: 25px;
-  filter: invert();
-}
+.X_logo {width: 28px;height: 25px;filter: invert();}
 
-.Discord_logo {
-  width: 30px;
-  height: 30px;
-  filter: brightness(0) invert(1);
-}
+.Discord_logo {width: 30px;height: 30px; filter: brightness(0) invert(1);}
 
-.Roblox_logo {
-  width: 30px;
-  height: 30x;
-  filter: invert();
-}
+.ArtStation_logo {width: 30px; height: 30px; filter: brightness(0) invert(1);}
+
+.Roblox_logo {width: 30px; height: 30px; filter: invert();}
 
 /* BACK TO TOP BUtoon*/
 
@@ -583,6 +573,12 @@ html {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  }
+}
+@media screen and (max-width: 700px) {
+.icon-made {
+  height: 20px;
+  width: 20px;
   }
 }
 
