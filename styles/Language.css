@@ -1,0 +1,26 @@
+.language-selector {
+  position: fixed;
+  bottom: 40px;
+  right: 130px;
+  z-index: 1000;
+}
+
+#language-dropdown {
+  font-family: "Bahnschrift Light", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 21px 21px;
+  border: 2px solid #121723;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #121723;
+  cursor: pointer;
+  -webkit-appearance: none; /* Removes default browser styling for dropdown */
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.flag {
+  width: auto;
+  height: auto;
+}

@@ -1,0 +1,43 @@
+.header2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header {
+  background-color: #121723;
+  width: auto;
+  height: auto;
+  border-bottom: 1px solid #a1a6b4;
+}
+.header_links {
+  align-content: center;
+}
+.header3 {
+  justify-content: space-between;
+  display: flex;
+  padding: 25px 50px;
+}
+
+.logo_header {
+  width: 80px;
+  height: 114px;
+}
+
+.name_header {
+  font-family: "Young", sans-serif;
+  font-size: 30px;
+  background-image: linear-gradient(rgb(233, 2, 62), rgb(175, 1, 97));
+  color: transparent;
+  background-clip: text;
+  padding: 0px 25px;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+.links3 {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+  padding: 0px;
+}

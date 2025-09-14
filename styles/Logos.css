@@ -1,0 +1,23 @@
+.X_logo {
+  width: 28px;
+  height: 25px;
+  filter: invert();
+}
+
+.Discord_logo {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+}
+
+.ArtStation_logo {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+}
+
+.Roblox_logo {
+  width: 30px;
+  height: 30px;
+  filter: invert();
+}
