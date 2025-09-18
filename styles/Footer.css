@@ -1,0 +1,52 @@
+.footer {
+  background: #121723;
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+}
+
+#social-media {
+  justify-content: center;
+  display: flex;
+  padding: 25px 0px;
+}
+
+/* .logo_footer {
+  width: 200.34px;
+  height: 80.24px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+} */
+
+h4 {
+  font-family: "Anonymous Pro", sans-serif;
+  color: #a1a6b4;
+  justify-content: center;
+  font-weight: 700;
+  display: flex;
+  padding: 25px;
+  text-align: center;
+}
+
+.line {
+  height: 1px;
+  max-width: 1160px;
+  background-color: rgba(230, 232, 236, 0.4);
+  align-self: center;
+  padding-left: 100px;
+}
+
+.line-cont {
+  height: 1px;
+  max-width: 1160px;
+  background-color: rgba(148, 148, 148, 0.4);
+}
+
+.links2 {
+  align-self: center;
+  align-items: center;
+  display: flex;
+  gap: 25px;
+  padding: 0px;
+}
