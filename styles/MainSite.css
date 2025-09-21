@@ -80,6 +80,7 @@ li {
 .text_container_UI {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   padding: 25px;
   text-wrap: wrap;
 }
@@ -115,6 +116,7 @@ li {
 .text_container_UI_alt {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   padding: 25px;
   text-wrap: wrap;
 }
@@ -190,22 +192,6 @@ a {
 
 #Logo_Work {
   margin-top: 60px;
-}
-
-/* Sticky class is toggled by JS */
-
-.tab-bar.sticky {
-  background-color: #121723;
-  position: fixed;
-  padding: 10px;
-  top: 0;
-  right: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
-
-.spacer {
-  height: 0px;
 }
 
 /* IDK */
@@ -359,4 +345,5 @@ p2 {
 .made-using {
   display: flex;
   gap: 15px;
+  position: relative;
 }

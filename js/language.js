@@ -20,6 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
   if (savedLang) {
     langDropdown.value = savedLang;
     changeLanguage(savedLang);
+  } else {
+    // Set dropdown to English and show English text
+    langDropdown.value = 'en';
+    changeLanguage('en');
   }
 
   // Add event listener to the dropdown
