@@ -40,4 +40,7 @@
   display: flex;
   gap: 25px;
   padding: 0px;
+  transition: all 0.3s ease-in-out;
 }
+
+.links3:hover {  transform: scale(1.1, 1.1); }

@@ -1,4 +1,4 @@
-@media screen and (max-width: 587px) {
+@media screen and (max-width: 752px) {
   .header3 {
     flex-direction: column;
     align-items: center;
@@ -17,13 +17,10 @@
 }
 
 @media screen and (max-width: 900px) {
-  .subtitle {
+ .subtitle {
     font-size: 32px;
   }
-}
-
-@media screen and (max-width: 900px) {
-  p1 {
+    p1 {
     font-size: 17px;
   }
 }
@@ -37,31 +34,13 @@
     display: flex;
     flex-direction: column;
   }
-}
-@media screen and (max-width: 1100px) {
-  .container_image_UI,
+    .container_image_UI,
   .container_image_UI_alt {
     width: 100%;
     order: -1;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .container-UI {
-    background-color: white;
-    width: 364px;
-    border-radius: 12px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 700px) {
-  .icon-made {
-    height: 20px;
-    width: 20px;
-  }
-}
 
 @media screen and (max-width: 700px) {
   .subtext_container_UI,
@@ -70,21 +49,19 @@
   .description_container_UI_alt {
     font-size: 15px;
   }
-}
-@media screen and (max-width: 700px) {
   .updtx_container_UI {
     font-size: 12px;
   }
-}
-
-@media screen and (max-width: 900px) {
-  .tab-bar a {
-    font-size: 15px;
+  .icon-made {
+    height: 20px;
+    width: 20px;
   }
-}
-
-@media screen and (max-width: 900px) {
-  .tab-bar {
-    gap: 5px;
+    .container-UI {
+    background-color: white;
+    width: 364px;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
   }
 }
