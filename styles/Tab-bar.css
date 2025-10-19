@@ -6,8 +6,10 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  transition: all 0.3s ease;
   align-items: center;
+
+  /* Only transition visual properties, not layout/position */
+  transition: background-color 0.25s ease, gap 0.25s ease, padding 0.25s ease, box-shadow 0.25s ease;
   /* keep it in flow by default; JS will add .sticky when it should be fixed */
 }
 
@@ -17,9 +19,18 @@
   padding: 10px 0px;
   gap: 5px;
   top: 0;
-  right: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Placeholder to preserve flow when tab-bar becomes fixed */
+.tabbar-placeholder {
+  display: block;
+  width: 100%;
+  height: 0;
+  pointer-events: none;
 }
 
 @media screen and (max-width: 900px) {
