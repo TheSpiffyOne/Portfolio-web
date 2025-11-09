@@ -3,6 +3,9 @@
   bottom: 40px;
   right: 130px;
   z-index: 1000;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
 }
 
 #language-dropdown {
@@ -10,16 +13,15 @@
   font-size: 20px;
   font-weight: 400;
   padding: 21px 21px;
-  border: 2px solid #121723;
-  border-radius: 5px;
-  background-color: #ffffff;
-  color: #121723;
+  border-radius: 10px;
+  border: 1px solid #0000001c;
   cursor: pointer;
   -webkit-appearance: none; /* Removes default browser styling for dropdown */
   -moz-appearance: none;
   appearance: none;
 }
-
+select:focus { outline: none; }
+.language-selector:hover {transform: scale(1.1, 1.1);}
 .flag {
   width: auto;
   height: auto;

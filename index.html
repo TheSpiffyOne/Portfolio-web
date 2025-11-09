@@ -14,11 +14,13 @@
   <link rel="stylesheet" href="styles/Tab-bar.css" />
   <link rel="stylesheet" href="styles/BackToTop.css" />
   <link rel="stylesheet" href="styles/Language.css" />
+  <link rel="stylesheet" href="styles/Picker.css" />
+  <link rel="stylesheet" href="styles/Skills.css" />
   <title>PORTFOLIO - TheSpiffyOne</title>
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="Home">
     <div class="wrapper">
       <div class="header3">
         <nav>
@@ -27,10 +29,10 @@
         <div class="header2">
           <h1 class="name_header" data-en="My Portfolio" data-ru="Моё Портфолио"></h1>
           <nav class="tab-bar">
-            <a href="#About Me"data-en="About Me" data-ru="Обо мне"></a>
-            <a href="#UI/UX"data-en="UI/UX" data-ru="UI/UX"></a>
-            <a href="#Logos"data-en="Logos" data-ru="Логотипы"></a>
-            <a href="#Payment"data-en="Payment" data-ru="Оплата"></a>
+            <div class="grain-overlay"></div>
+            <a href="#Home" data-en="Home" data-ru="Начало"></a>
+            <a href="#UI/UX"data-en="Featured Projects" data-ru="Избранные проекты"></a>
+            <a href="#Skills"data-en="Skills" data-ru="Навыки"></a>
           </nav>
         </div>
         <nav class="header_links">
@@ -43,6 +45,7 @@
         </nav>
       </div>
     </div>
+    <div class="grain-overlay"></div>
   </header>
 
   <main class="main">
@@ -56,13 +59,18 @@
       </div>
         
       <h1 class="main-subtitle">Many years of experience with <span class="talent">Talented Creators</span></h1>
-<h1 class="subtitle" id="About Me" data-en="About Me" data-ru="Обо мне">About Me</h1>
-<p1 data-en="I'm mainly a UI/UX Designer, but I also sometimes do Logo Design. I have 3+ years worth of experience under my belt with a ton of ambitious projects completed. I take criticism seriously and I strive to be the best I can be. I believe that communication is key to a great product!"
+<p1 data-en="I'm a UI/UX Designer, I also do Logo Design. I have 3+ years worth of experience under my belt with a ton of ambitious projects completed. I believe that communication is key to a great product!"
     data-ru="Я в основном UI/UX-дизайнер, но иногда занимаюсь и дизайном логотипов. У меня более 3 лет опыта, и я завершил множество амбициозных проектов. Я серьезно отношусь к критике и стараюсь быть лучшим. Я считаю, что общение — ключ к отличному продукту!"></p1>
-      <h class="title-cards" id="UI/UX" data-en="UI/UX" data-ru="UI/UX"></h>
+      
+    <h class="title-cards" id="UI/UX" data-en="Featured Projects" data-ru="Избранные проекты"></h>
+      <div class="picker-container" role="tablist" aria-label="Filter projects">
+        <button class="picker-option" data-filter="all" data-en="All" data-ru="Все" role="tab" aria-selected="false">All</button>
+        <button class="picker-option" data-filter="uiux" data-en="UI/UX" data-ru="UI/UX" role="tab" aria-selected="false">UI/UX</button>
+        <button class="picker-option" data-filter="logos" data-en="Logos" data-ru="Логотипы" role="tab" aria-selected="false">Logos</button>
+      </div>
+
       <nav class="nav1" id="content">
         <section class="catalog-UI">
-
           <div class="container-UI">
             <img alt="Rising Dawn: Main menu" src="images/Rising Dawn/Rising Dawn.png" class="container_image_UI" />
             <div class="text_container_UI">
@@ -79,7 +87,27 @@
             </div>
             </div>
           </div>
+        </section>
 
+        <section class="catalog-logo">
+          <div class="container2">
+            <img alt="" src="images/Logo/Arow gate Logo USE THIS ONE.png" class="container_image_logo "/>
+            <h3 class="subtext_container_logo" data-en="ArowGate" data-ru="ArowGate"></h3>
+            <p class="description_container_logo" data-en="Classy, Unique and Recognizable" data-ru="Стильный, уникальный и узнаваемый"></p>
+          </div>
+          <div class="container2">
+            <img alt="" src="images/Logo/Logo Creating something new (red and Purple).png" class="container_image_logo" />
+            <h3 class="subtext_container_logo" data-en="Personal Logo" data-ru="Логотип"></h3>
+            <p class="description_container_logo" data-en="Created it for myself" data-ru="Логотип для себя"></p>
+          </div>
+          <div class="container2">
+            <img alt="" src="images/Logo/Illustrator_LwDp3H00Ul.png" class="container_image_logo" />
+            <h3 class="subtext_container_logo" data-en="Badyacht (Concept)" data-ru="Концепция Badyacht"></h3>
+            <p class="description_container_logo" data-en="Created in free time for practice" data-ru="Создан в свободное время для практики"></p>
+          </div>
+        </section>
+
+        <section class="catalog-UI">
           <div class="container-UI">
             <div class="text_container_UI_alt">
               <h3 class="subtext_container_UI_alt" data-en="FireTeam" data-ru="FireTeam"></h3>
@@ -96,7 +124,23 @@
             </div>
             <img alt="FireTeam UI" src="images/FireTeam/FireTeam.png" class="container_image_UI_alt" />
           </div>
+        </section>
+        
+        <section class="catalog-logo">
+          <div class="container2">
+            <img alt="" src="images/Logo/Screenshot 2025-06-15 155808.png" class="container_image_logo" />
+            <h3 class="subtext_container_logo" data-en="Valkyrie logo" data-ru="Логотип Валькирии"></h3>
+            <p class="description_container_logo" data-en="Logo for Dev Studio" data-ru="Сделано было для Студии"></p>
+          </div>
 
+          <div class="container2">
+            <img alt="" src="images/Practice/Suite.png" class="container_image_logo" />
+            <h3 class="subtext_container_logo" data-en="Concept for Hotel Room" data-ru="Концепция для Гостиницы"></h3>
+            <p class="description_container_logo" data-en="Practice" data-ru="Личная практика для себя"></p>
+          </div>
+        </section>
+
+        <section class="catalog-UI">
           <div class="container-UI">
             <img alt="Spellbound" src="images/Spellbound/Spellbound.png" class="container_image_UI" />
             <div class="text_container_UI">
@@ -114,7 +158,9 @@
             </div>
             </div>
           </div>
+        </section>
 
+        <section class="catalog-UI">
           <div class="container-UI">
             <div class="text_container_UI_alt">
               <h3 class="subtext_container_UI_alt" data-en="Car Game" data-ru="Car Game"></h3>
@@ -131,7 +177,9 @@
             </div>
             <img alt="Car Game" src="images/Car/Car Game.png" class="container_image_UI_alt" />
           </div>
+        </section>
 
+        <section class="catalog-UI">
           <div class="container-UI">
             <img alt="Hexagon" src="images/Hexagon/Hexagon.png" class="container_image_UI" />
             <div class="text_container_UI">
@@ -148,7 +196,9 @@
             </div>
             </div>
           </div>
+        </section>
 
+        <section class="catalog-UI">
           <div class="container-UI">
             <div class="text_container_UI_alt">
               <h3 class="subtext_container_UI_alt" data-en="Anime" data-ru="Anime" ></h3>
@@ -164,54 +214,23 @@
             </div>
             <img alt="Anime UI" src="images/anime/Anime UI.png" class="container_image_UI_alt" />
           </div>
+        </section>
 
           <video controls alt="" src="videos/Screen Recording 2025-06-15 160158.mp4" type="video/mp4"
               class="container_video">Your browser does not support HTML5 video.</video>
          
       </nav>
       <a id="show-more"data-en="Show More" data-ru="Показать еще"></a>
-      <h class="title-cards" id="Logos" data-en="Logos" data-ru="Логотипы"></h>
-      <nav class="nav2">
-        <section class="catalog-logo">
-          <div class="container2">
-            <img alt="" src="images/Logo/Arow gate Logo USE THIS ONE.png" class="container_image_logo "/>
-            <h3 class="subtext_container_logo" data-en="ArowGate" data-ru="ArowGate"></h3>
-            <p class="description_container_logo" data-en="Classy, Unique and Recognizable" data-ru="Стильный, уникальный и узнаваемый"></p>
-          </div>
 
-          <div class="container2">
-            <img alt="" src="images/Logo/Logo Creating something new (red and Purple).png" class="container_image_logo" />
-            <h3 class="subtext_container_logo" data-en="Personal Logo" data-ru="Логотип"></h3>
-            <p class="description_container_logo" data-en="Created it for myself" data-ru="Логотип для себя"></p>
-          </div>
-
-          <div class="container2">
-            <img alt="" src="images/Logo/Illustrator_LwDp3H00Ul.png" class="container_image_logo" />
-            <h3 class="subtext_container_logo" data-en="Badyacht (Concept)" data-ru="Концепция Badyacht"></h3>
-            <p class="description_container_logo" data-en="Created in free time for practice" data-ru="Создан в свободное время для практики"></p>
-          </div>
-
-          <div class="container2">
-            <img alt="" src="images/Logo/Screenshot 2025-06-15 155808.png" class="container_image_logo" />
+      <h1 class="subtitle" id="Skills" data-en="Skills" data-ru="Навыки"></h1>
+      <div class="skill-box">
+        <img alt="" src="images/Logo/Screenshot 2025-06-15 155808.png" class="skill-box_image" />
+          <div>
             <h3 class="subtext_container_logo" data-en="Valkyrie logo" data-ru="Логотип Валькирии"></h3>
             <p class="description_container_logo" data-en="Logo for Dev Studio" data-ru="Сделано было для Студии"></p>
           </div>
-
-          <div class="container2">
-            <img alt="" src="images/Practice/Suite.png" class="container_image_logo" />
-            <h3 class="subtext_container_logo" data-en="Concept for Hotel Room" data-ru="Концепция для Гостиницы"></h3>
-            <p class="description_container_logo" data-en="Practice" data-ru="Личная практика для себя"></p>
-          </div>
-      </nav>
-      <h1 class="subtitle" id="Payment" data-en="Payment" data-ru="Платеж"></h1>
-      <p1 data-en="Cryptocurrency is my preferred method of receiving payment, as it's the most convenient and safest method for
-        me. If you arent able to pay by Crypto, I also accept PayPal payments through a third party service, which accepts PayPal. I accept Robux payment, but it is only accepted for small commissions. Anything
-        10+ USD requires Crypto or PayPal payment." data-ru="Криптовалюта - мой предпочтительный способ получения платежей, так как это самый удобный и безопасный способ для
-        меня. Если вы не можете расплатиться криптовалютой, я также принимаю платежи переводом."></p1>
-    </div>
-    </section>
-    </div>
-  </main>
+      </div>
+</main>
 
   <footer class="footer">
     <div class="wrapper">
@@ -236,6 +255,7 @@
   <script src="js/showmore.js"></script>
   <script src="js/language.js"></script>
   <script src="js/backToTop.js"></script>
+  <script src="js/Picker.js"></script>
 </body>
 
 </html>
