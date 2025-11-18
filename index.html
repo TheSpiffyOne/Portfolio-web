@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="styles/Footer.css" />
   <link rel="stylesheet" href="styles/Sizing.css" />
   <link rel="stylesheet" href="styles/Logos.css" />
-  <link rel="stylesheet" href="styles/Tab-bar.css" />
+  <link rel="stylesheet" href="styles/navbar.css" />
   <link rel="stylesheet" href="styles/BackToTop.css" />
   <link rel="stylesheet" href="styles/Language.css" />
   <link rel="stylesheet" href="styles/Picker.css" />
@@ -20,20 +20,23 @@
 </head>
 
 <body>
+ 
   <header class="header" id="Home">
+    <nav class="navbar">
+      <a class="style" href="#Home" data-en="Home" data-ru="Начало"></a>
+      <a class="style" href="#UI/UX"data-en="Featured Projects" data-ru="Избранные проекты"></a>
+      <a class="style" href="#Skills"data-en="Skills" data-ru="Навыки"></a>
+    </nav>
+    
     <div class="wrapper">
+      
       <div class="header3">
         <nav>
           <a href=""><img src="images/icons/logo_v2.svg" alt="TheSpiffyOne" class="logo_header"></a>
         </nav>
         <div class="header2">
           <h1 class="name_header" data-en="My Portfolio" data-ru="Моё Портфолио"></h1>
-          <nav class="tab-bar">
-            <div class="grain-overlay"></div>
-            <a href="#Home" data-en="Home" data-ru="Начало"></a>
-            <a href="#UI/UX"data-en="Featured Projects" data-ru="Избранные проекты"></a>
-            <a href="#Skills"data-en="Skills" data-ru="Навыки"></a>
-          </nav>
+          
         </div>
         <nav class="header_links">
           <ul class="links3">
@@ -251,11 +254,11 @@
   <a href="#" class="back-to-top">
     <span class="material-icons">arrow_upward</span>
   </a>
-  <script src="js/header.js"></script>
   <script src="js/showmore.js"></script>
   <script src="js/language.js"></script>
   <script src="js/backToTop.js"></script>
   <script src="js/Picker.js"></script>
+  <script src="js/header.js"></script>
 </body>
 
 </html>

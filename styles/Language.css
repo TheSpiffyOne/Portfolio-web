@@ -1,7 +1,7 @@
 .language-selector {
   position: fixed;
   bottom: 40px;
-  right: 130px;
+  right: 120px;
   z-index: 1000;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
@@ -21,7 +21,6 @@
   appearance: none;
 }
 select:focus { outline: none; }
-.language-selector:hover {transform: scale(1.1, 1.1);}
 .flag {
   width: auto;
   height: auto;
