@@ -35,8 +35,9 @@
   flex-direction: column;
   justify-content: space-between;
   display: flex;
-  padding: 50px 50px;
+  padding: 50px;
   align-items: center;
+  gap: 20px;
 }
 
 .logo_header {
@@ -52,7 +53,7 @@
   background-clip: text;
   padding: 0px 50px;
   align-self: center;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .links3 {
