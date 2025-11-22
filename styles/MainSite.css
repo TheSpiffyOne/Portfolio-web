@@ -48,12 +48,6 @@ body {
   justify-content: center;
 }
 
-li {
-  position: relative;
-  font-size: 20px;
-  display: inline-block;
-}
-
 .catalog-UI {
   display: flex;
   justify-content: center;
@@ -206,7 +200,7 @@ a {
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
-  margin-bottom: 50px;
+  margin: 50px 0px 20px 0px;
   text-align: center;
 }
 
