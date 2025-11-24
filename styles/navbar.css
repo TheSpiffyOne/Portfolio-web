@@ -13,11 +13,11 @@
 .stickies {
   position: fixed;
   top: 0;
-  z-index: 1000;
   box-shadow: 0 10px 13px rgba(0,0,0,0.15);
-  padding: 20px;
+  padding: 20px 0px;
   background-color: #121723;
   z-index: 9999;
+  transition: all 0.3s ease-in-out;
 }
 
 .style {
