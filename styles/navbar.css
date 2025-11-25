@@ -7,7 +7,8 @@
   justify-content: center;
   width: 100%;
   align-items: center;
-  transition: background-color 0.25s ease, gap 0.25s ease, padding 0.25s ease, box-shadow 0.25s ease;
+  transition: all 0.3s ease-in-out;
+  margin-top: 55px;
 }
 
 .stickies {
@@ -19,6 +20,7 @@
   background-color: #121723;
   z-index: 9999;
   transition: all 0.3s ease-in-out;
+  margin-top: 0px;
 }
 
 .style {
