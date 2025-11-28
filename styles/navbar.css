@@ -86,10 +86,7 @@
 @media screen and (max-width: 583px) {
   .navbar {
     gap: 15px;
-    font-size: 15px;
-  }
-  .stickies {
-
+    font-size: 17px;
   }
 
 }
