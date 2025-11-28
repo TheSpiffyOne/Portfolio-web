@@ -1,15 +1,17 @@
 .back-to-top {
+  height: 44px;
+  width: 44px;
   position: fixed;
-  bottom: 40px;
+  bottom: 39px;
   right: 40px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background-color: #121723;
-  border-radius: 0.5rem;
+  border-radius: 10px;
   padding: 10px;
   text-decoration: none;
-  transition: 0.2s ease-out;
+  transition: 0.2s ease-in-out;
 
   /* Ensure the button sits above other content and receives touch events */
   z-index: 10001;
@@ -17,26 +19,16 @@
   -webkit-tap-highlight-color: transparent;
   pointer-events: auto;
   cursor: pointer;
-
-  /* Make hit area a bit larger on mobile */
-  min-width: 48px;
-  min-height: 48px;
-  padding: 12px;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
 }
 
 .back-to-top span {
   color: #fff;
   font-size: 3rem;
-  transition: 0.2s ease-out;
+  transition: 0.2s ease-in-out;
   line-height: 1;
   user-select: none;
   pointer-events: none; /* let the parent element receive the events */
 }
-
-.back-to-top:hover {
-  background-color: #0d111a;
-}
-
-.back-to-top:hover span {
-  transform: translateY(-4px);
-}
+.back-to-top:hover {background-image: linear-gradient(rgb(233, 2, 62), rgb(175, 1, 97));}
+.back-to-top:hover span {transform: translateY(-4px);}

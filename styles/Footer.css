@@ -3,6 +3,7 @@
   overflow: hidden;
   position: relative;
   bottom: 0;
+  height: 15  0px;
 }
 
 #social-media {
@@ -25,7 +26,7 @@ h4 {
   justify-content: center;
   font-weight: 700;
   display: flex;
-  padding: 25px;
+  padding: 25px 0px;
   text-align: center;
 }
 
