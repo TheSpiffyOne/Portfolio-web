@@ -1,7 +1,7 @@
 .navbar {
-  font-family: "Anonymous Pro", sans-serif;
+  font-family: "Bahnschrift Light", sans-serif;
+  font-weight: 400;
   font-size: 25px;
-  font-weight: 700;
   gap: 50px;
   display: flex;
   justify-content: center;

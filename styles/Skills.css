@@ -12,16 +12,16 @@
 
 .skill-box:hover { transform: scale(1.1, 1.1); box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px; }
 .skill_box_name {
-    font-family: "Anonymous Pro", sans-serif;
+    font-family: "Bahnschrift Light", sans-serif;
+    font-weight: 400;
     color: #000000;
-    font-weight: 700;
     padding: 20px 0px;
 }
 .skill_box_description{
-    font-family: "Anonymous Pro", sans-serif;
+    font-family: "Bahnschrift Light", sans-serif;
+    font-weight: 400;
     color: #6c6e78;
     justify-content: center;
-    font-weight: 700;
     padding: 20px 0px;
 }
 .skill_box_list{
@@ -31,12 +31,12 @@
 }
 .skill_box_list_item{
     padding: 5px 0px;
-    font-family: "Anonymous Pro", sans-serif;
     color: rgb(233, 2, 62);
 }
 
 .skill_box_list_item_text{
-    font-family: "Anonymous Pro", sans-serif;
+    font-family: "Bahnschrift Light", sans-serif;
+    font-weight: 300;
     color: #000000;}
 
 .skill-box_image{
@@ -52,7 +52,7 @@
     width: 100%;
     margin: 20px 0px;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 .logo-skill-box{
